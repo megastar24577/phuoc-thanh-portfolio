@@ -9,11 +9,7 @@
 }
 
 .section-wrapper {
-  background-image: url('./common/images/flat-lay-desk-dark-concept-with-copy-space.jpg');
   height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: 'Montserrat', sans-serif;
 }
 
