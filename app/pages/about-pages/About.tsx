@@ -2,7 +2,7 @@ import SecondaryHeader from "@/app/common-components/headers/SecondaryHeader";
 
 function About() {
   return (
-    <div className="relative mt-80 w-4/5 m-auto h-fit">
+    <div id="aboutMe" className="relative mt-80 w-4/5 m-auto h-fit">
       <SecondaryHeader headerContent={"ABOUT ME"} />
       <div className="mx-auto mt-10 w-3/4 text-center font-medium text-lg">
         Graduated as a Software Engineer at FPT University. With two years in

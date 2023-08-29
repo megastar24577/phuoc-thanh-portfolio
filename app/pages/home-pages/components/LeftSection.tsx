@@ -1,6 +1,9 @@
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import ArrowLongRight from "@/public/icons/ArrowLongRight";
+import NavLink from "@/app/common-components/layouts/navbar/components/NavLink";
+import UrlConstant from "@/app/utils/constants/UrlConstant";
 
 function LeftSection() {
   const onLoadVariants = {
@@ -104,15 +107,15 @@ function LeftSection() {
             <div className="text-lg">Software Domains</div>
           </motion.div>
         </motion.div>
-        <div className="w-2/3 mt-14">
+        <a
+          href={UrlConstant.AboutMeUrl}
+          className="w-2/3 mt-14 flex cursor-pointer"
+        >
           <div>Find out more</div>
-          {/* <Image
-            src="/icons/arrow-long-right"
-            width={50}
-            height={50}
-            alt="arrow-long-right"
-          /> */}
-        </div>
+          <div className="w-5 h-5 ml-2">
+            <ArrowLongRight />
+          </div>
+        </a>
       </div>
     </div>
   );

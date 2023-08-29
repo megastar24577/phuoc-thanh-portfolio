@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function HomePage() {
   return (
-    <div className="relative top-36 w-full h-screen">
+    <div id="homePage" className="relative top-36 w-full h-screen">
       <div className="absolute h-4/5 w-full">
         <Image
           src="/layout/flower.svg"
